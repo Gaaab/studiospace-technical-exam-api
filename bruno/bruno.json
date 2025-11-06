@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "StudioSpace",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}

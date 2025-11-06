@@ -1,0 +1,22 @@
+meta {
+  name: Get Agency Report
+  type: http
+  seq: 1
+}
+
+get {
+  url: {{API_URL}}/agencies/report
+  body: none
+  auth: inherit
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}
+
+docs {
+  # Get Agency Report
+  
+  This endpoint generates a comprehensive report showing the distribution of agencies across regions (AU, GB, US, Other) categorized by their service offerings:
+}
