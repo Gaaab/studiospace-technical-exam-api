@@ -6,9 +6,7 @@ import { ServiceReport } from './agency.types';
 export class AgencyController {
   private readonly logger = new Logger(AgencyController.name);
 
-  constructor(private readonly agencyService: AgencyService) {
-    console.log('dine');
-  }
+  constructor(private readonly agencyService: AgencyService) {}
 
   @Get('report')
   async getReport(): Promise<ServiceReport> {
